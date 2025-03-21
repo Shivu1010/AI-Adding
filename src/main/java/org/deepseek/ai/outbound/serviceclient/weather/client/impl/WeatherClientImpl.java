@@ -1,10 +1,10 @@
-package org.pushkar.weatherai.outbound.serviceclient.weather.client.impl;
+package org.deepseek.ai.outbound.serviceclient.weather.client.impl;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
-import org.pushkar.weatherai.outbound.serviceclient.weather.client.WeatherClient;
-import org.pushkar.weatherai.outbound.serviceclient.weather.dto.WeatherResponseDTO;
-import org.pushkar.weatherai.util.HttpHelper;
+import org.deepseek.ai.outbound.serviceclient.weather.client.WeatherClient;
+import org.deepseek.ai.outbound.serviceclient.weather.dto.WeatherResponseDTO;
+import org.deepseek.ai.util.HttpHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;

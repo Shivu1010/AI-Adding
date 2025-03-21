@@ -1,13 +1,10 @@
-package org.pushkar.weatherai.service;
+package org.deepseek.ai.service;
 
-import org.pushkar.weatherai.outbound.serviceclient.weather.client.WeatherClient;
-import org.pushkar.weatherai.outbound.serviceclient.weather.client.impl.WeatherClientImpl;
-import org.pushkar.weatherai.outbound.serviceclient.weather.dto.WeatherRequestDTO;
-import org.pushkar.weatherai.outbound.serviceclient.weather.dto.WeatherResponseDTO;
+import org.deepseek.ai.outbound.serviceclient.weather.client.WeatherClient;
+import org.deepseek.ai.outbound.serviceclient.weather.dto.WeatherRequestDTO;
+import org.deepseek.ai.outbound.serviceclient.weather.dto.WeatherResponseDTO;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestClient;
 import org.springframework.web.client.RestClientException;
 
 import java.util.function.Function;

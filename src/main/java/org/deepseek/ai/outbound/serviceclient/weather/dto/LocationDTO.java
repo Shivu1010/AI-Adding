@@ -1,4 +1,4 @@
-package org.pushkar.weatherai.outbound.serviceclient.weather.dto;
+package org.deepseek.ai.outbound.serviceclient.weather.dto;
 
 import java.io.Serializable;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

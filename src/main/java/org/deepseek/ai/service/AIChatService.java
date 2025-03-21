@@ -1,4 +1,4 @@
-package org.pushkar.weatherai.service;
+package org.deepseek.ai.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.chat.client.ChatClient;

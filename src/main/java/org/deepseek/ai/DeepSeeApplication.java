@@ -1,4 +1,4 @@
-package org.pushkar.weatherai;
+package org.deepseek.ai;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
