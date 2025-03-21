@@ -1,7 +1,7 @@
-package org.deepseek.ai.controller;
+package org.pushkar.weatherai.controller;
 
 
-import org.deepseek.ai.service.AIChatService;
+import org.pushkar.weatherai.service.AIChatService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

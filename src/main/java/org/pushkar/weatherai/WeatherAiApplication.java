@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WeatherAiApplication {
+public class DeepSeeApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(WeatherAiApplication.class, args);
+        SpringApplication.run(DeepSeeApplication.class, args);
     }
 
 }

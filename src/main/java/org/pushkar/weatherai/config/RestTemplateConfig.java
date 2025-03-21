@@ -1,4 +1,4 @@
-package org.deepseek.ai.config;
+package org.pushkar.weatherai.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
