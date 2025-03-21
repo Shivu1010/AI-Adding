@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: weatherAI
+
+  ai:
+    ollama:
+      chat:
+        model: llama3.2:3b
+
+weather:
+  api:
+    key: ${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}
+
+job:
+  api:
+    key: ${JOB_API_KEY}
+
+openrouter:
+  api:
+    key: ${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}  # Use environment variable for security
+    url: https://openrouter.ai/api/v1/chat/completions
